@@ -1,0 +1,57 @@
+.main {
+  display: flex;
+  flex-wrap: nowrap;
+  background-color: DodgerBlue;
+}
+
+.main > div {
+  /*
+  background-color: #7d2323;
+
+  margin: 10px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px;
+  */
+  
+
+}
+
+.flex-grid {
+   
+    flex-wrap: wrap;
+  display: flex;
+  border-width: 1px;
+  border-color: black;
+  border-style: solid;
+
+}
+.col {
+  /*
+  flex: 1;
+  */
+}
+
+.griddiv {
+  display: grid;
+  /*
+  grid-template-columns: repeat(0, 1fr);
+  */
+  padding: 0px;
+  border-width: 0px;
+  border-color: black;
+  background-color: white;
+  border-style: solid;
+  width: 10px;
+  height: 10px;
+}
+
+.griddiv:hover {
+  padding: 0px;
+  border-width: 0px;
+  background-color: black;
+  border-style: solid;
+  width: 10px;
+  height: 10px;
+  
+}
